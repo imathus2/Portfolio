@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Portfolio</title>
+        <!--meta -->
+        <meta name="author" content="Athul Nair">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="css/materialize.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- javascript -->
+        <script src="js/jquery-3.1.1.js"></script>
+        <script src="js/materialize.min.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header class="secondary-color"> 
+                <div class="row">
+                    <div class="col l6 m6 s2">
+                        <a href="#" id="logo"><img src="images/logo.png" alt="Udacity Logo"></a>
+                    </div>
+                    <div class="col l6 m6 s10 uppercase right-align secondary-color">
+                        <h2 class="portfolio-name">Jane Doette</h2>
+                        <h5 class="portfolio-tag-line">Front-End Ninja</h5>
+                    </div>
+                </div>
+            </header> <!-- header end -->
+            <div id="ruler" class="row">
+                <div class="col m12 s12 l12">
+                    <hr>
+                </div>
+            </div> <!-- ruler end -->
+            <section id="img-banner" class="row">
+                <div class="col s12 l12 m12">
+                    <img id="banner-img" class="responsive-img" src="images/banner.jpg" alt="Banner Image">
+                </div>
+            </section> <!-- image-banner end -->
+            <section id="featured-work">
+                <h3 id="featured-heading" class="tertiary-color">Featured Work</h3>
+                <div class="row">
+                    <a href="#appify-modal">
+                        <div id="appify" class="col l4 m6 s12 center-align">
+                            <div class="hoverable portfolio-card">
+                                <img class="responsive-img" src="images/appify.jpg" alt="Appify Image">
+                                <h4 class="uppercase secondary-color">Appify</h4>
+                                <p class="secondary-color center-align">https://github.com/udacity/Appify/</p>
+                            </div>
+                        </div> 
+                    </a> <!-- appify end -->
+                    <a href="#sunflower-modal">
+                        <div id="sunflower" class="col l4 m6 s12 center-align" data-title="Sunflower" data-img="sunflower" >
+                            <div class="hoverable portfolio-card">
+                                <img class="responsive-img" src="images/sunflower.jpg" alt="Sunflower Image">
+                                <h4 class="uppercase secondary-color">Sunflower</h4>
+                                <p class="secondary-color center-align">https://github.com/udacity/Sunflower/</p>
+                            </div>
+                        </div>
+                    </a> <!-- sunflower end -->
+                    <a href="#bokeh-modal">
+                        <div id="bokeh" class="col l4 offset-m3 m6 s12 center-align">
+                            <div class="hoverable portfolio-card">
+                                <img class="responsive-img" src="images/bokeh.jpg" alt="Bokeh Image">
+                                <h4 class="uppercase secondary-color">Bokeh</h4>
+                                <p class="secondary-color center-align">https://github.com/udacity/Bokeh/</p>
+                            </div>
+                        </div>
+                    </a> <!-- bokeh end -->
+                </div>
+            </section> <!-- featured-work end -->
+        </div> <!-- container end -->
+        <!--Appify Modal-->
+        <div id="appify-modal" class="modal">
+            <div class="modal-content">
+                <h4>Appify</h4>
+                <img class="responsive-img" src="images/appify.jpg" alt="Appify Image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum purus nec ex feugiat, quis commodo sem posuere. Vivamus viverra rutrum nisi ut pretium. Integer venenatis auctor lectus, vitae tincidunt sem. Praesent ac tellus ac dui tincidunt ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris eu dapibus nisi.</p>
+            </div>
+        </div>
+        <!--Sunflower Modal-->
+        <div id="sunflower-modal" class="modal">
+            <div class="modal-content">
+                <h4>Sunflower</h4>
+                <img class="responsive-img" src="images/sunflower.jpg" alt="Sunflower Image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum purus nec ex feugiat, quis commodo sem posuere. Vivamus viverra rutrum nisi ut pretium. Integer venenatis auctor lectus, vitae tincidunt sem. Praesent ac tellus ac dui tincidunt ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris eu dapibus nisi.</p>
+            </div>
+        </div>
+        <!--Bokeh Modal-->
+        <div id="bokeh-modal" class="modal">
+            <div class="modal-content">
+                <h4>Bokeh</h4>
+                <img class="responsive-img" src="images/bokeh.jpg" alt="Bokeh Image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum purus nec ex feugiat, quis commodo sem posuere. Vivamus viverra rutrum nisi ut pretium. Integer venenatis auctor lectus, vitae tincidunt sem. Praesent ac tellus ac dui tincidunt ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris eu dapibus nisi.</p>
+            </div>
+        </div>
+    </body>
+</html>

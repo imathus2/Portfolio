@@ -1,0 +1,70 @@
+/* framework */
+.uppercase
+{
+    text-transform: uppercase;
+}
+.primary-color
+{
+    color: #7d97ad !important;
+}
+.secondary-color
+{
+    color: #2d3c49 !important;
+}
+.tertiary-color
+{
+    color: #7d97ad !important;
+}
+.responsive-img
+{
+    width: 100%;
+}
+
+/* contents */
+#logo
+{
+    cursor: pointer;
+}
+hr
+{
+    border: none;
+    color: #7d97ad;
+    background-color: #7d97ad;
+    height: 5px;
+}
+#banner-img
+{
+    min-width: 100%;
+    max-height: 450px;
+}
+.portfolio-name
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 100;
+}
+.portfolio-tag-line
+{
+    margin-top: 5px;
+    font-weight: 400;
+}
+#featured-heading
+{
+    font-weight: 300;
+}
+.portfolio-card
+{
+    cursor: pointer;
+    padding: 0 !important;
+    padding-bottom: 10px !important;
+    margin-bottom: 5px;
+}
+p
+{
+    font-size: 13px;
+    text-align: justify;
+}
+.modal
+{
+    max-width: 500px;
+}
